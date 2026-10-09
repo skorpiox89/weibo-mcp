@@ -1,0 +1,5 @@
+# 把登录 weibo.com 后任意 XHR 请求头里的整段 Cookie 粘贴到这里（单行）。
+# 获取方式：浏览器打开 https://weibo.com 并登录 → F12 → Network → 随便点一个请求
+# → Request Headers → 复制 Cookie 一整行的值 → 覆盖写入 cookie.txt。
+# 需要的字段通常包括 SUB、SUBP、SSOLoginState、ALF、XSRF-TOKEN 等。
+# 有效期一般数天到数周，接口报 HTTP 403/432 时回来重新复制即可。

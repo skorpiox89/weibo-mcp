@@ -1,0 +1,16 @@
+# 登录凭证（绝不提交）
+cookie.txt
+
+# 导出结果
+export/*
+!export/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+.idea/
+.vscode/
+.DS_Store
